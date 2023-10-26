@@ -1,0 +1,27 @@
+button{
+    font-size:44px;
+    padding :10px;
+    border-radius:10px;
+    margin: 300px;
+    margin-left: 40%;
+    background-color: beige;
+
+}
+#container
+{
+    text-align :center;
+
+}
+.bg-img {
+    /* The image used  */
+    background-image: url("src\assets\images\payment.jpg");
+  
+    /* Control the height of the image */
+    height: 750px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
