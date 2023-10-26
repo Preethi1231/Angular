@@ -1,0 +1,49 @@
+/* .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgb(241, 25, 108);
+     background-image: url("src\assets\images (1).jpg"); 
+  } */
+  homepage css
+
+  h1
+      {
+        font-size:44px;
+        padding :10px;
+        border-radius:10px;
+        margin: 300px;
+        margin-left: 40%;
+        margin-bottom: 50%;
+        background-color: beige;
+          
+      }
+  
+  
+  
+  
+  #container
+  {
+      text-align :center;
+  
+  }
+  .bg-img {
+      /* The image used */
+      background-image: url("src\assets\images\payment.jpg");
+      background-color: aqua;
+    
+      /* Control the height of the image */
+      height: 750px;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+     
+    }
+    .bg{
+        margin-left:36%;
+    }
