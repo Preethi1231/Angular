@@ -1,0 +1,27 @@
+<app-homepage></app-homepage>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="./register.component.css">
+</head>
+<body>
+  <div class="registration-form">
+     <h1>Registration Form</h1>
+     <form class="codehim-form" action = "#" method = "post">
+ 
+            Enter Customer Id:<input type = "text" placeholder="ID" [(ngModel)] = 'customer.customerid'>
+            <p> Enter Customer Name:</p>
+             <input type = "text" placeholder="NAME" [(ngModel)] = 'customer.customername'>
+            <p>Enter Mobile Number :</p>
+            <input type = "text" placeholder="Mobile" [(ngModel)] = 'customer.mobileno'>
+            <p>Enter Email:</p>
+            <input type = "text" placeholder="Email" [(ngModel)] = 'customer.email'>
+            <p>Enter Password:</p>
+            <input type = "text" placeholder="PASSWORD" [(ngModel)] = 'customer.password'><br>
+            <p><input type ="submit" value ="REGISTER" (click)="registerEmp()"></p>
+   </form>
+  </div>
+</body>
+</html>
+
